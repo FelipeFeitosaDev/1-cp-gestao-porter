@@ -29,9 +29,9 @@ A página foi criada usando HTML, CSS e JavaScript. Foram utilizadas as seguinte
 Como acessar
 ------------
 
-A página está disponível online em [www.5forcasdeporter.com](http://www.5forcasdeporter.com/). Você também pode baixar os arquivos do projeto em [github.com/meuusuario/5-forcas-de-porter](http://github.com/meuusuario/5-forcas-de-porter).
+A página está disponível online no [replit](https://portolio-porter.felipefeitosa7.repl.co). Você também pode baixar os arquivos do projeto no [1-cp-gestao-porter](http://github.com/FelipeFeitosaDev/1-cp-gestao-porter).
 
 Como contribuir
 ---------------
 
-Se você encontrou um erro na página ou tem sugestões para melhorias, por favor, envie um pull request no repositório do projeto em [github.com/meuusuario/5-forcas-de-porter](http://github.com/FelipeFeitosaDev/1-cp-gestao-porter). Ficaremos felizes em receber contribuições!
+Se você encontrou um erro na página ou tem sugestões para melhorias, por favor, envie um pull request no repositório do projeto em [1-cp-gestao-porter](http://github.com/FelipeFeitosaDev/1-cp-gestao-porter). Ficaremos felizes em receber contribuições!
