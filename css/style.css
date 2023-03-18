@@ -1,0 +1,364 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.favicon {
+    fill: white;
+}
+
+
+:root {
+    --checkpoint-background: coral;
+
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    padding: 30px 0;
+    font-size: 1.6rem;
+    z-index: 99;
+}
+
+header nav {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    width: 65%;
+    font-family: 'Abel', sans-serif;
+    color: black;
+    display: flex;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+/* 
+    .porter{
+      flex-direction: row;
+    } */
+
+.porter {
+    flex-direction: row-reverse;
+}
+
+.txt {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.txt.show {
+    opacity: 1;
+}
+
+.txt {
+    width: 55%;
+}
+
+#home .txt {
+    transition: 1.5s ease-in-out;
+    position: relative;
+    bottom: 500px;
+    z-index: 0;
+}
+
+.txt-animation {
+    bottom: 25px !important;
+}
+
+.illustration {
+    width: 45%;
+    max-width: 550px;
+    text-align: center;
+}
+
+.home-illustration-width {
+    opacity: 0;
+    visibility: hidden;
+    width: 60%;
+    max-width: 620px;
+}
+
+.home-illustration {
+    opacity: 0;
+    visibility: hidden;
+    transition: 2s ease-in-out;
+    max-width: 620px;
+}
+
+.illustration-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+img {
+    width: 100%;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(251, 246, 238);
+}
+
+.realce {
+    display: inline-block;
+
+}
+
+.checkpoint-color {
+    background-color: var(--checkpoint-background);
+}
+
+.aquamarine-color {
+    background-color: aquamarine;
+}
+
+.coral-color {
+    background-color: coral;
+}
+
+.image-size {
+    width: 80%;
+}
+
+.fiap-logo {
+    width: 95px;
+}
+
+.footer {
+    flex-direction: column;
+    color: white;
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(33, 33, 33);
+
+
+}
+
+.linkedin {
+    width: 15px;
+}
+
+.footer-content {
+    width: 50vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+    /*   border: 1px solid white; */
+}
+
+.footer h2 {
+    font-size: 2rem;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
+
+.footer-content nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+    width: 250px;
+    height: 25vh;
+    /*    border: 1px solid white; */
+}
+
+/* .footer-content nav ul li{
+      justify-content: center;
+    } */
+
+.footer-content nav ul li a {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+
+.button-outline-fill {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-outline-fill:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.button-outline-fill:active {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+
+/* RESPONSIVE */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+    .menu-button {
+        fill: black;
+        right: 15px;
+        top: 10px;
+        display: block;
+        margin-right: 10%;
+    }
+
+
+    .top-nav-responsive {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+    }
+
+    .top-nav-responsive li {
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 300%;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+
+    header nav ul {
+        display: none;
+    }
+
+    header {
+        padding: 20px 0 20px 0;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+    }
+
+    .headline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .txt {
+        text-align: center;
+        width: 80%;
+    }
+
+    .txt p {
+        text-align: start;
+    }
+
+    #home .txt p {
+        text-align: center !important;
+    }
+
+    .illustration {
+        width: 60%;
+        margin-top: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu-button {
+        fill: black;
+        right: 15px;
+        top: 10px;
+        display: none;
+    }
+
+    h1 {
+        font-size: 3.9rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.8rem;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    header nav ul {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    header nav {
+        justify-content: flex-end;
+    }
+
+    .h1-home {
+        font-size: 6.2rem;
+    }
+
+    .p-home {
+        font-size: 2.5rem;
+    }
+}
