@@ -20,11 +20,10 @@ A página aborda os seguintes tópicos:
 Tecnologias usadas
 ------------------
 
-A página foi criada usando HTML, CSS e JavaScript. Foram utilizadas as seguintes bibliotecas:
+A página foi criada usando HTML, CSS e JavaScript. Foram utilizadas a seguinte biblioteca:
 
--   Bootstrap: para construção do layout responsivo.
--   jQuery: para facilitar a manipulação do DOM.
--   Font Awesome: para ícones e recursos gráficos.
+-   Google fonts: para fontes.
+-   Streamline: banco de ilustrações, icones e emojis.
 
 Como acessar
 ------------
