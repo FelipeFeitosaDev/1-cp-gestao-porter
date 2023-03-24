@@ -1,0 +1,50 @@
+header {
+    /* era essa propriedade aqui que eu não lembrava :) */
+    position: static;
+
+}
+
+body {
+    background-color: rgb(251, 246, 238);
+}
+
+article {
+
+    margin: 40px auto;
+    margin-bottom: 60px;
+    width: 70%;
+
+
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+/* justificando o texto :)  */
+p {
+
+    text-align: justify;
+
+}
+
+@media (max-width: 767px) {
+    article {
+
+        margin: 40px auto;
+        margin-bottom: 60px;
+        width: 80%;
+
+
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+
+        text-align: left;
+
+    }
+}
